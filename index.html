@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="id"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Portofolio Abdul Ghafar</title>
+<meta name="description" content="Portofolio Abdul Ghafar, Staff Pendataan dan Pengolahan, Depok.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@500;800;900&display=swap" rel="stylesheet">
+<style>
+:root{--ph:url("assets/foto.jpg");--k:#0b0b10;--w:#fff;--rd:#e60026;--bl:#1478dc;--df:'Anton',Impact,'Arial Narrow',sans-serif;--bf:'Archivo',system-ui,-apple-system,'Segoe UI',sans-serif;color-scheme:dark}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--k:#0b0b10}}
+:root[data-theme="dark"]{--k:#0b0b10}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{background:var(--k);color:var(--w);font:500 15px/1.5 var(--bf);overflow:hidden}
+button{font:inherit;color:inherit;cursor:pointer;background:none;border:0}
+a{color:inherit}:focus-visible{outline:3px solid #ffe600;outline-offset:2px}
+.scr{position:fixed;inset:0;display:none;overflow:hidden}.scr.on{display:block}
+.pg{position:absolute;inset:0;z-index:2;overflow:hidden;padding:16px 56.0px 70px}
+.str::before{content:"";position:absolute;inset:-300px;background:var(--g);animation:mv 2.4s linear infinite}
+@keyframes mv{to{transform:translate(var(--mx),0)}}
+/* foto dengan warna ala duotone */
+.artw{position:absolute;isolation:isolate;z-index:1}
+.artw::after{content:"";position:absolute;inset:0;background:var(--tc);mix-blend-mode:color}
+.art{position:absolute;inset:0;background:var(--ph) 55% 28%/cover;filter:grayscale(1) contrast(1.25) brightness(1.05)}
+.artw.m,.artw.s{right:0;top:0;bottom:0;width:860.0px;-webkit-mask-image:linear-gradient(90deg,transparent,#000 38%);mask-image:linear-gradient(90deg,transparent,#000 38%)}
+.artw.m{--tc:#12b5d6}.artw.s{--tc:#e0102f}.artw.c{--tc:#2a8cff;left:0;bottom:0;top:18%;width:560.0px;-webkit-mask-image:linear-gradient(270deg,transparent,#000 40%);mask-image:linear-gradient(270deg,transparent,#000 40%)}
+/* huruf potongan */
+.rz{display:block;font:400 112.0px/1.08 var(--df);text-transform:uppercase}
+.rz span{display:inline-block;padding:0 .1em;margin:0 .015em;transform:rotate(var(--r)) skewX(-6deg);animation:sl .5s cubic-bezier(.2,1.4,.4,1) both;animation-delay:calc(var(--i)*40ms)}
+.r0{background:#fff;color:var(--k)}.r1{background:var(--k);color:#fff;outline:2px solid #fff}.r2{background:#fff;color:var(--bl);font:900 .85em var(--bf)}.r3{background:var(--rd);color:#fff}
+@keyframes sl{from{opacity:0;transform:translateY(-40px) scale(1.6)}}
+.tag{position:absolute;top:14px;font:800 11px/1 var(--bf);letter-spacing:.06em;text-transform:uppercase;padding:8px 12px;transform:skewX(-10deg);z-index:3}
+.t1{left:56.0px;background:#000;color:#fff;border:1px solid #fff}.t2{right:56.0px;background:#fff;color:#000}
+/* menu */
+#s-menu{background:radial-gradient(circle at 72% 38%,#22c7e0 0,#0a7d99 38%,#052a4a 100%)}
+#s-menu::before{content:"";position:absolute;right:-230.4px;top:-108.0px;width:810.0px;height:810.0px;border-radius:50%;border:54.0px solid rgba(255,255,255,.1)}
+#s-menu .pg{display:flex;flex-direction:column;justify-content:center;padding-top:70px}
+#s-menu h1 .rz{font-size:118.0px}
+.bio{max-width:470px;margin:18px 0 22px;padding:12px 16px;background:rgba(5,20,40,.78);border:1px solid rgba(255,255,255,.2);font-size:13px;animation:fi .6s .7s both}
+@keyframes fi{from{opacity:0}}
+.mn{display:flex;flex-direction:column;align-items:flex-start;gap:2px}
+.mi{font:400 54.0px/1.1 var(--df);text-transform:uppercase;padding:2px 22px 2px 14px;color:#fff;text-shadow:3px 3px 0 #000;transform:skewX(-9deg);animation:in .5s cubic-bezier(.2,.9,.2,1) both;animation-delay:calc(.5s + var(--i)*80ms)}
+@keyframes in{from{opacity:0;translate:-60px 0}}
+.mi.sel{background:#fff;color:var(--k);text-shadow:none;padding-right:46px;box-shadow:5px 5px 0 #000}
+.mi.sel::after{content:"▶";font-size:.45em;margin-left:14px;vertical-align:middle}
+.keys{position:fixed;left:56.0px;bottom:18px;z-index:6;font:800 11px/1 var(--bf);display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+kbd{font:inherit;background:#000;border:1px solid #fff;padding:4px 7px}
+.sfx{position:fixed;right:56.0px;bottom:14px;z-index:6;font:800 11px/1 var(--bf);background:#000;border:1px solid #fff;padding:9px 12px;transform:skewX(-10deg)}
+/* layar isi */
+.hd{display:flex;align-items:center;gap:18px;flex-wrap:wrap;margin:44px 0 26px}
+.hd .rz{font-size:96.0px}
+.bk{font:800 12px/1 var(--bf);background:#000;border:1px solid #fff;padding:10px 14px;transform:skewX(-10deg)}.bk:hover{background:#fff;color:#000}
+#s-exp{background:var(--bl);--g:repeating-linear-gradient(135deg,#1478dc 0 38px,#0f5fbd 38px 76px);--mx:107.5px}
+#s-abt{background:#14000a;--g:repeating-linear-gradient(-55deg,#d00a2a 0 42px,#14000a 42px 84px);--mx:-102.6px}
+#s-skl{background:radial-gradient(circle at 75% 50%,#b3122a,#3d050b 75%)}
+#s-ctc{background:linear-gradient(160deg,#1c93e8,#0a2c74)}
+#s-ctc::before{content:"";position:absolute;left:30%;top:-10%;width:18%;height:130%;background:rgba(255,255,255,.1);transform:skewX(-20deg)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;max-width:1100px}
+.cd{position:relative;background:var(--k);border:2px solid #fff;padding:18px 20px;box-shadow:6px 6px 0 rgba(0,0,0,.5);animation:in .5s cubic-bezier(.2,.9,.2,1) both;animation-delay:calc(var(--i)*90ms)}
+.cd:nth-child(even){transform:rotate(.6deg)}.cd:nth-child(odd){transform:rotate(-.6deg)}
+.cd h3{font:400 28px/1.1 var(--df);text-transform:uppercase;margin:6px 0 4px}.cd li{list-style:none;font-size:14px}
+.dt{font:800 12px/1 var(--bf);background:#fff;color:#000;padding:5px 9px;display:inline-block;transform:skewX(-10deg)}
+.nw{font:800 11px/1 var(--bf);background:var(--rd);padding:5px 9px;margin-left:8px;display:inline-block;transform:skewX(-10deg)}
+.grp{margin-bottom:22px;max-width:640px}.grp h3{display:inline-block;font:800 13px/1 var(--bf);background:#fff;color:#000;padding:7px 12px;margin-bottom:10px;transform:skewX(-10deg);text-transform:uppercase}
+.sk{display:inline-block;font:400 34.0px/1.1 var(--df);text-transform:uppercase;background:var(--k);color:#fff;border:2px solid #fff;padding:4px 14px;margin:0 8px 8px 0;transform:skewX(-9deg);animation:in .45s cubic-bezier(.2,.9,.2,1) both;animation-delay:calc(var(--i)*60ms)}
+.ab{display:grid;grid-template-columns:1fr min380.0px;gap:34px;max-width:1100px;align-items:start}
+.bx{background:#fff;color:#111;padding:16px 20px;margin-bottom:16px;box-shadow:6px 6px 0 #000;animation:in .5s cubic-bezier(.2,.9,.2,1) both;animation-delay:calc(var(--i)*110ms)}
+.bx.pk{background:#ffd9df}.bx h3{display:inline-block;background:var(--k);color:#fff;font:800 12px/1 var(--bf);padding:6px 10px;margin-bottom:8px;text-transform:uppercase}
+.frmw{background:#fff;padding:10px;clip-path:polygon(7% 0,100% 4%,93% 100%,0 96%);animation:in .6s .3s cubic-bezier(.2,.9,.2,1) both;translate:0 0}
+.frm{aspect-ratio:3/4;background:var(--ph) 55% 30%/cover}
+.rb{display:block;margin:-18px 0 0 auto;width:max-content;max-width:100%;background:var(--k);color:#fff;font:800 12px/1 var(--bf);padding:9px 12px;text-transform:uppercase;transform:skewX(-10deg);position:relative}
+.sd{display:flex;flex-direction:column;gap:6px;margin-top:14px}.sd span{background:#000;border:1px solid #fff;padding:7px 12px;font:800 12px/1 var(--bf);text-transform:uppercase;transform:skewX(-10deg)}
+.sd span::before{content:"●";color:var(--rd);margin-right:8px}
+.tabs{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:20px}.tabs a,.tabs span{font:800 12px/1 var(--bf);background:#000;border:1px solid #fff;padding:10px 14px;text-decoration:none;text-transform:uppercase;transform:skewX(-10deg)}.tabs a:hover{background:#fff;color:#000}
+.fm{position:relative;max-width:420px;margin-left:auto;background:#fff;color:#111;padding:20px;box-shadow:8px 8px 0 #000;animation:in .5s cubic-bezier(.2,.9,.2,1) both}
+.fm h3{font:400 26px/1 var(--df);text-transform:uppercase;border-bottom:3px solid #111;padding-bottom:8px;margin-bottom:12px}
+.fm label{display:block;font:800 11px/1 var(--bf);text-transform:uppercase;margin:10px 0 4px}
+.fm input,.fm textarea{width:100%;font:500 15px var(--bf);padding:9px 10px;border:2px solid #111;background:#f2f2f2;color:#111}.fm textarea{height:100px;resize:vertical}
+.btn{display:block;text-align:center;margin-top:14px;background:var(--bl);color:#fff;font:400 22px/1 var(--df);text-transform:uppercase;padding:12px;text-decoration:none}.btn:hover{background:var(--rd)}
+/* intro */
+#intro{position:fixed;inset:0;z-index:80;background:#05050a;display:grid;place-items:center;cursor:pointer;overflow:hidden}
+.ss{position:absolute;left:50%;top:50%;translate:-50% -50%;font:400 520.0px/1 var(--df);color:transparent;-webkit-text-stroke:2px #fff;white-space:nowrap}
+.ss span{display:inline-block;animation:pop .4s cubic-bezier(.2,1.6,.4,1) both;animation-delay:calc(.3s + var(--i)*90ms)}
+@keyframes pop{from{opacity:0;transform:scale(2.4) rotate(-8deg)}}
+.phw{position:relative;z-index:2;height:800.0px;width:calc(800.0px*.5625)}
+.ph{width:100%;height:100%;background:var(--ph) center/cover;clip-path:circle(0 at 66% 54%);animation:rv .8s .9s cubic-bezier(.2,.8,.2,1) forwards}
+@keyframes rv{to{clip-path:circle(85% at 66% 54%)}}
+.rg{position:absolute;left:66%;top:54%;width:70px;height:70px;margin:-35px 0 0 -35px;border:2px solid #fff;border-radius:50%;opacity:0;animation:hush 1.8s ease-in 1.7s 2 both}
+@keyframes hush{from{transform:scale(8);opacity:0}30%{opacity:.9}to{transform:scale(.3);opacity:0}}
+.ih{position:absolute;bottom:64.8px;z-index:3;font:800 12px/1 var(--bf);text-transform:uppercase;opacity:0;animation:fi .5s 2.3s forwards}
+#wipe{position:fixed;inset:0;z-index:99;pointer-events:none}#wipe i{position:absolute;inset:0;transform:translateX(-130%) skewX(-20deg)}
+@media(prefers-reduced-motion:reduce){*{animation-duration:.001ms!important;animation-delay:0s!important;animation-iteration-count:1!important}.str::before{animation:none}}
+
+#stage{position:fixed;left:0;top:0;width:1920px;height:1080px;transform-origin:0 0;overflow:hidden;background:var(--k)}
+body{font-size:18px}
+.pg{padding-left:96px;padding-right:96px}
+.hd{margin-top:64px}
+#s-menu h1 .rz{font-size:132px}.mi{font-size:64px}.bio{max-width:620px;font-size:17px}
+.grid{grid-template-columns:repeat(3,1fr);max-width:1500px}
+.cd h3{font-size:34px}.cd p,.cd li{font-size:18px}.dt{font-size:14px}.nw{font-size:13px}
+.grp{max-width:900px}
+.ab{max-width:1400px;grid-template-columns:1fr 420px}.bx{font-size:17px}
+.sd{flex-direction:row;flex-wrap:wrap}
+.fm{max-width:520px}.fm label{font-size:13px}.fm input,.fm textarea{font-size:18px}
+.tag,.keys,.bk,.rb,.tabs a,.tabs span,.sd span,.grp h3,.bx h3,.sfx{font-size:14px}
+.sfx{right:350px}
+.mp{position:fixed;right:56px;bottom:16px;z-index:6;display:flex;align-items:center;gap:14px;background:#000;border:1px solid #fff;padding:8px 18px 8px 8px;min-width:270px;transform:skewX(-8deg)}
+.mp button{width:44px;height:44px;background:var(--rd);color:#fff;font:900 15px var(--bf);display:grid;place-items:center}.mp button:hover{background:#fff;color:#000}
+.mt{display:flex;flex-direction:column;gap:2px;flex:1;font:800 14px/1.1 var(--bf);text-transform:uppercase}.mt small{font-weight:500;opacity:.7}
+.pb{height:3px;background:rgba(255,255,255,.25);margin-top:6px}.pb i{display:block;height:100%;width:0;background:#fff}
+</style></head><body>
+<div id="stage">
+
+<section class="scr" id="s-menu">
+<div class="artw m"><div class="art"></div></div>
+<div class="pg">
+<span class="tag t1">Portofolio // Abdul Ghafar</span><span class="tag t2">Depok / Pendataan &amp; Pengolahan</span>
+<h1 aria-label="Abdul Ghafar"><span class="rz">Abdul</span><span class="rz">Ghafar</span></h1>
+<p class="bio">Lulusan SMA jurusan IPS yang pandai berkomunikasi dalam hidup bermasyarakat. Pengalaman terbaru: Staff Pendataan dan Pengolahan di Badan Pusat Statistik, Juni–September 2026.</p>
+<nav class="mn" id="mn">
+<button class="mi" data-t="exp" style="--i:0">Pengalaman</button>
+<button class="mi" data-t="skl" style="--i:1">Kemampuan</button>
+<button class="mi" data-t="abt" style="--i:2">Tentang</button>
+<button class="mi" data-t="ctc" style="--i:3">Kontak</button>
+</nav></div></section>
+
+<section class="scr str" id="s-exp"><div class="pg">
+<div class="hd"><h2 class="rz">Pengalaman</h2><button class="bk" data-back>Kembali (Esc)</button></div>
+<div class="grid">
+<article class="cd" style="--i:0"><span class="dt">Juni 2026 – September 2026</span><b class="nw">Terbaru</b><h3>Badan Pusat Statistik</h3><p>Staff Pendataan dan Pengolahan</p></article>
+<article class="cd" style="--i:1"><span class="dt">Juni 2024 – Juli 2024</span><h3>Fun World</h3><p>Crew outlet</p></article>
+<article class="cd" style="--i:2"><span class="dt">Maret 2023 – April 2023</span><h3>PT. Astra</h3><p>Asisten operator mesin</p></article>
+<article class="cd" style="--i:3"><span class="dt">Februari 2023 – Maret 2023</span><h3>PT. Lazada</h3><p>Produksi Logistik</p></article>
+<article class="cd" style="--i:4"><span class="dt">Mei 2020 – Juni 2020</span><h3>Gudang Roughneck (Malatex)</h3><ul><li>Mensortir barang customer</li><li>Memindahkan barang ke tempat sortir</li><li>Menghitung stok barang</li></ul></article>
+</div></div></section>
+
+<section class="scr" id="s-skl"><div class="artw s"><div class="art"></div></div><div class="pg">
+<div class="hd"><h2 class="rz">Kemampuan</h2><button class="bk" data-back>Kembali (Esc)</button></div>
+<div class="grp"><h3>Keterampilan</h3><br><span class="sk">Data entry</span><span class="sk">Probing interview</span><span class="sk">Negosiasi</span></div>
+<div class="grp"><h3>Bahasa dan software</h3><br><span class="sk">Indonesia (aktif)</span><span class="sk">Inggris (menengah)</span><span class="sk">Excel (standar)</span></div>
+<div class="grp"><h3>Sikap kerja</h3><br><span class="sk">Kerja tim</span><span class="sk">Komunikasi</span><span class="sk">Adaptif</span><span class="sk">Mengelola waktu</span><span class="sk">Berwawasan luas</span><span class="sk">Terbuka pada masukan</span></div>
+</div></section>
+
+<section class="scr str" id="s-abt"><div class="pg">
+<div class="hd"><h2 class="rz">Tentang</h2><button class="bk" data-back>Kembali (Esc)</button></div>
+<div class="ab"><div>
+<div class="bx" style="--i:0"><h3>Siapa saya</h3><p>Lulusan SMA jurusan IPS yang memiliki kemampuan berkomunikasi dalam hidup bermasyarakat. Dengan latar belakang Pendidikan Sosial, saya mendapatkan banyak materi tentang isu-isu sosial, interaksi sosial, keterampilan komunikasi, dan topik lainnya seperti yang diajarkan dalam mata pelajaran Sosiologi.</p></div>
+<div class="bx pk" style="--i:1"><h3>Pendidikan</h3><p>SMA Negeri 8 Depok, jurusan IPS. Nilai rata-rata 84,90/100.</p></div>
+<div class="bx" style="--i:2"><h3>Organisasi dan pelatihan</h3><p>Anggota KPPS (kerja tim, patuh prosedur, menghitung suara). Karang Taruna (perlengkapan dan kebersihan). Boxing/Tinju, Kota Depok.</p></div>
+</div><div>
+<div class="frmw"><div class="frm" role="img" aria-label="Abdul Ghafar menempelkan jari di depan bibir, isyarat ssst"></div></div>
+<span class="rb">Biar hasil kerja yang bicara</span>
+<div class="sd"><span>Data entry</span><span>Probing interview</span><span>Negosiasi</span></div>
+</div></div></div></section>
+
+<section class="scr" id="s-ctc"><div class="artw c"><div class="art"></div></div><div class="pg">
+<div class="hd"><h2 class="rz">Kontak</h2><button class="bk" data-back>Kembali (Esc)</button></div>
+<div class="tabs"><a href="mailto:abdulgafar105@gmail.com">Email</a><a href="https://wa.me/6285691204439">WhatsApp</a><span>Sidamukti, Depok</span></div>
+<div class="fm"><h3>Kirim pesan</h3>
+<label for="fn">Nama</label><input id="fn" placeholder="Nama kamu" autocomplete="name">
+<label for="fe">Email kamu</label><input id="fe" type="email" placeholder="email@domain.com" autocomplete="email">
+<label for="ft">Pesan</label><textarea id="ft" placeholder="Tulis pesan kamu"></textarea>
+<a class="btn" id="send" href="mailto:abdulgafar105@gmail.com">Kirim lewat email</a></div>
+</div></section>
+
+<div class="keys"><kbd>↑</kbd><kbd>↓</kbd> Pilih <kbd>Enter</kbd> Buka <kbd>Esc</kbd> Kembali <kbd>M</kbd> Musik</div>
+<button class="sfx" id="sfx">Efek: mati</button>
+<div class="mp"><button id="pp" aria-label="Putar atau jeda musik">▶</button><div class="mt"><b>Move</b><small>Tuantigabelas</small><div class="pb"><i id="pf"></i></div></div></div>
+<audio id="au" src="assets/move-tuantigabelas.m4a" loop preload="auto"></audio>
+
+<div id="intro" role="button" tabindex="0" aria-label="Lewati intro">
+<div class="ss" id="ss" aria-hidden="true"></div>
+<div class="phw"><div class="ph" role="img" aria-label="Abdul Ghafar menempelkan jari di depan bibir, isyarat ssst"></div><i class="rg"></i><i class="rg" style="animation-delay:2.1s"></i></div>
+<p class="ih">Klik atau tekan Enter untuk lanjut</p>
+</div>
+<div id="wipe"><i style="background:#e60026"></i><i style="background:#0b0b10"></i><i style="background:#fff"></i></div>
+
+</div>
+<script>
+(()=>{
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
+const rm=matchMedia('(prefers-reduced-motion:reduce)').matches;
+const stage=$('#stage'),fit=()=>{const s=Math.min(innerWidth/1920,innerHeight/1080);stage.style.transform=`translate(${(innerWidth-1920*s)/2}px,${(innerHeight-1080*s)/2}px) scale(${s})`};fit();addEventListener('resize',fit);
+const R=[-4,3,-2,5,-3,2,-5];
+$$('.rz').forEach(e=>{e.innerHTML=[...e.textContent].map((c,i)=>`<span class="r${i%4}" style="--r:${R[i%7]}deg;--i:${i}">${c}</span>`).join('')});
+$('#ss').innerHTML=[...'ssst.'].map((c,i)=>`<span style="--i:${i}">${c}</span>`).join('');
+$$('#s-skl .sk').forEach((e,i)=>e.style.setProperty('--i',i));
+/* suara kecil buatan sendiri, mati secara bawaan */
+let sfx=false,ctx;
+const blip=f=>{if(!sfx)return;try{ctx=ctx||new AudioContext();const o=ctx.createOscillator(),g=ctx.createGain();o.type='square';o.frequency.value=f;g.gain.setValueAtTime(.04,ctx.currentTime);g.gain.exponentialRampToValueAtTime(.001,ctx.currentTime+.09);o.connect(g);g.connect(ctx.destination);o.start();o.stop(ctx.currentTime+.1)}catch(e){}};
+$('#sfx').onclick=()=>{sfx=!sfx;$('#sfx').textContent='Efek: '+(sfx?'nyala':'mati');blip(700)};
+/* musik: coba mulai saat intro selesai; kalau browser menahan, mulai di klik/tombol pertama */
+const au=$('#au'),pp=$('#pp'),pf=$('#pf');au.volume=.6;
+const sync=()=>{pp.textContent=au.paused?'▶':'II'},toggle=()=>{au.paused?au.play().catch(()=>{}):au.pause()};
+const startMusic=()=>au.play().catch(()=>{const f=e=>{if(e.target.closest&&e.target.closest('.mp'))return;if(e.type==='keydown'&&/^[mM]$/.test(e.key))return;au.play().catch(()=>{});['pointerdown','keydown'].forEach(v=>removeEventListener(v,f))};['pointerdown','keydown'].forEach(v=>addEventListener(v,f))});
+pp.addEventListener('click',toggle);['play','pause'].forEach(v=>au.addEventListener(v,sync));
+au.addEventListener('timeupdate',()=>{pf.style.width=(au.duration?au.currentTime/au.duration*100:0)+'%'});
+/* transisi merah-hitam-putih: layar berganti tepat saat panel menutup penuh */
+let busy=false,cur='menu',sel=0;
+const wipe=mid=>new Promise(r=>{if(rm){mid();r();return}
+$$('#wipe i').forEach((p,i)=>p.animate([{transform:'translateX(-130%) skewX(-20deg)'},{transform:'translateX(0) skewX(-20deg)',offset:.42},{transform:'translateX(0) skewX(-20deg)',offset:.52},{transform:'translateX(130%) skewX(-20deg)'}],{duration:950,delay:i*80,easing:'cubic-bezier(.7,0,.3,1)'}));
+setTimeout(mid,560);setTimeout(r,1250)});
+const show=id=>{cur=id;$$('.scr').forEach(e=>e.classList.toggle('on',e.id==='s-'+id));$$('.pg').forEach(e=>{e.scrollTop=0})};
+const go=id=>{if(busy||id===cur)return;busy=true;blip(780);wipe(()=>show(id)).then(()=>{busy=false})};
+const items=$$('.mi'),pick=i=>{sel=(i+items.length)%items.length;items.forEach((e,k)=>e.classList.toggle('sel',k===sel))};
+items.forEach((e,i)=>{e.addEventListener('mouseenter',()=>{if(sel!==i){pick(i);blip(520)}});e.addEventListener('focus',()=>pick(i));e.addEventListener('click',()=>go(e.dataset.t))});
+$$('[data-back]').forEach(b=>b.addEventListener('click',()=>go('menu')));
+pick(0);
+addEventListener('keydown',e=>{
+if($('#intro')){if(['Enter',' ','Escape'].includes(e.key)){e.preventDefault();enter()}return}
+if(/INPUT|TEXTAREA/.test(document.activeElement.tagName)&&e.key!=='Escape')return;
+if(e.key==='m'||e.key==='M'){toggle();return}
+if(cur==='menu'){if(e.key==='ArrowDown'){e.preventDefault();pick(sel+1);blip(520)}else if(e.key==='ArrowUp'){e.preventDefault();pick(sel-1);blip(520)}else if(e.key==='Enter'&&document.activeElement.tagName!=='BUTTON')go(items[sel].dataset.t)}
+else if(e.key==='Escape'||e.key==='Backspace'&&!/INPUT|TEXTAREA/.test(document.activeElement.tagName))go('menu')});
+/* form kirim pesan: tautan email yang terisi otomatis */
+const up=()=>{const b=`Halo Abdul, saya ${$('#fn').value||''} (${$('#fe').value||'-'}).\n\n${$('#ft').value||''}`;$('#send').href='mailto:abdulgafar105@gmail.com?subject='+encodeURIComponent('Pesan dari portofolio')+'&body='+encodeURIComponent(b)};
+['#fn','#fe','#ft'].forEach(s=>$(s).addEventListener('input',up));
+/* intro: ssst, foto muncul dari jari, lalu transisi ke menu pada detik 3,4 */
+let tm;
+const enter=()=>{if(!$('#intro')||busy)return;clearTimeout(tm);busy=true;blip(780);startMusic();wipe(()=>{$('#intro').remove();show('menu')}).then(()=>{busy=false})};
+$('#intro').addEventListener('click',enter);
+tm=setTimeout(enter,rm?200:3400);
+})();
+</script>
+</body></html>
